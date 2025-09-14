@@ -14,7 +14,7 @@ const sendOtp = require("../Controllers/otpSignUp");
 const {
 	resetPasswordToken,
 	resetPassword,
-} = require("../Controllers/ResetPassword");
+} = require("../Controllers/resetPassword");
 
 const { authenticate } = require("../Middlewares/auth");
 
