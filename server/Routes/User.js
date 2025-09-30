@@ -14,7 +14,7 @@ const {changePassword} = require("../Controllers/changePassword")
 const {
   resetPasswordToken,
   resetPassword,
-} = require("../Controllers/ResetPassword")
+} = require("../Controllers/resetPassword")
 
 const { authenticate } = require("../Middlewares/auth")
 
