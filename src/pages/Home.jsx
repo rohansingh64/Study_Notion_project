@@ -148,7 +148,7 @@ const Home = () => {
 
       {/*Section 2 */}
 
-      <div className='bg-pure-greys-5  text-richblack-500'>
+      <div className='bg-pure-greys-5  text-richblack-500 mt-10'>
 
         <div className='homepage_bg h-[310px]'>
 
