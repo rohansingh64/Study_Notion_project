@@ -38,8 +38,8 @@ exports.resetPasswordToken = async (req, res) => {
 			{ new: true }
 		);
 
-		const link = `http://localhost:3000/update-password/${resetPassToken}`;
-		//const link = `https://studynotion-edtech-project.vercel.app/update-password/${resetPassToken}`
+		// const link = `http://localhost:3000/update-password/${resetPassToken}`;
+		const link = `https://study-notion-mernstack.netlify.app/update-password/${resetPassToken}`
 
 		try {
 			const title = "Password reset for Study Notion";

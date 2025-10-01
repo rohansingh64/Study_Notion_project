@@ -73,7 +73,7 @@ exports.contactUsEmailTemplate = (
     
     <body>
         <div class="container">
-            <a href="https://studynotion-edtech-project.vercel.app">
+            <a href="https://study-notion-mernstack.netlify.app">
 				<img src="https://i.ibb.co/5hP95yZJ/Logo-Full-Dark.png" alt="StudyNotion Logo" border="0">
 			</a>
             <div class="message">Contact Form Confirmation</div>
