@@ -87,11 +87,19 @@ For backend/server
 
 PORT = 4000
 
+
+
 DB_URL = your_mongo_db_url
+
 CLOUD_NAME = dsrsdqh96
+
 API_KEY = cloudinary api key
+
 API_SECRET = cloudinary secret key
+
 FOLDER_NAME = "folder name"
+
+
 
 JWT_SECRET = "jwt secret"
 
@@ -119,7 +127,10 @@ Frontend
 npm install
 npm start
 
+
+
 Backend
+
 cd server
 npm install
 npm run dev
