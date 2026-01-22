@@ -42,13 +42,13 @@
 const { Resend } = require("resend");
 require("dotenv").config();
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend('re_bZcGnjtn_MRamjJSwYZosf8xc4V2Rs8m9');
 
 const sendingMail = async (email, title, body) => {
 	try {
 		const info = await resend.emails.send({
-			from: `StudyNotion <${process.env.MAIL_FROM}>`,
-			to: email,
+			from: "StudyNotion <onboarding@resend.dev>",
+			to: [email],
 			subject: title,
 			html: body,
 		});
