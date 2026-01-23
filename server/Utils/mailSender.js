@@ -13,6 +13,14 @@ const sendingMail = async (email, title, body) => {
 			},
 		});
 
+		transporter.verify((error, success) => {
+			if (error) {
+				console.error("SMTP CONNECTION FAILED:", error);
+			} else {
+				console.log("SMTP CONNECTION READY");
+			}
+		});
+
 		const info = await transporter.sendMail({
 			from: `"StudyNotion" <${process.env.MAIL_USER}>`,
 			to: `${email}`,
